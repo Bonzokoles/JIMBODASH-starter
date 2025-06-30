@@ -1,0 +1,42 @@
+{
+    "app": {
+        "name": "JIMBODASH",
+        "version": "1.0.0",
+        "description": "Professional Flask Dashboard Starter Template",
+        "author": "Bonzokoles",
+        "debug": true
+    },
+    "server": {
+        "host": "127.0.0.1",
+        "port": 5000,
+        "auto_open_browser": true
+    },
+    "ai": {
+        "default_model": "llama2",
+        "ollama_host": "http://localhost:11434",
+        "max_tokens": 200,
+        "temperature": 0.7
+    },
+    "weather": {
+        "default_city": "Warsaw",
+        "api_provider": "openweathermap",
+        "units": "metric",
+        "language": "en"
+    },
+    "monitoring": {
+        "update_interval": 5000,
+        "enable_system_stats": true,
+        "enable_network_stats": false
+    },
+    "ui": {
+        "theme": "light",
+        "enable_dark_mode": true,
+        "enable_3d_visualizations": true,
+        "animation_speed": "normal"
+    },
+    "security": {
+        "cors_origins": ["*"],
+        "rate_limiting": false,
+        "api_key_required": false
+    }
+}
